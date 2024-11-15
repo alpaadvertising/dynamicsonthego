@@ -1,128 +1,99 @@
-/* styles.css */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #004d4d; /* Deep Greenish Blue */
-  color: #ffffff;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamics On the Go</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="main-title">Dynamics On the Go</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#seminars">Seminars</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search services..." id="search">
+      <button onclick="searchFunction()">Search</button>
+    </div>
+  </header>
 
-header {
-  background-color: #1c2b36; /* Army green */
-  color: white;
-  padding: 20px;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
+  <main>
+    <section id="about" class="section">
+      <h2>About Us</h2>
+      <p>Dynamics On the Go is your guide to freelancing success, providing skills training, job assistance, and certifications.</p>
+    </section>
 
-.main-title {
-  font-size: 3em;
-  font-weight: bold;
-  color: #d40000; /* Red */
-  text-shadow: 2px 2px 4px #000000;
-}
+    <section id="services" class="section">
+      <h2>Our Services</h2>
+      <div class="services-container">
+        <div class="service-card">
+          <img src="https://via.placeholder.com/150" alt="Freelancing Skills Training">
+          <h3>Freelancing Skills Training</h3>
+          <p>Develop essential freelancing skills like content writing and graphic design.</p>
+          <a href="#skills-training" class="service-link">Learn More</a>
+        </div>
+        <div class="service-card">
+          <img src="https://via.placeholder.com/150" alt="Portfolio Building">
+          <h3>Portfolio Building</h3>
+          <p>Create a professional portfolio that attracts clients and showcases your work.</p>
+          <a href="#portfolio-building" class="service-link">Learn More</a>
+        </div>
+        <div class="service-card">
+          <img src="https://via.placeholder.com/150" alt="Resume Writing Assistance">
+          <h3>Resume Writing Assistance</h3>
+          <p>Write compelling resumes tailored for freelance job applications.</p>
+          <a href="#resume-writing" class="service-link">Learn More</a>
+        </div>
+        <!-- Add more services here -->
+      </div>
+    </section>
 
-.navbar ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
+    <section id="testimonials" class="section">
+      <h2>Testimonials</h2>
+      <blockquote>"Thanks to Dynamics On the Go, I landed my first online client in just two months!"</blockquote>
+      <cite>- Anna M., Virtual Assistant</cite>
+      <blockquote>"The seminars and certifications boosted my credibility and helped me charge better rates."</blockquote>
+      <cite>- John D., Freelance Graphic Designer</cite>
+    </section>
 
-.navbar ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.2em;
-  transition: color 0.3s;
-}
+    <section id="seminars" class="section">
+      <h2>Seminars & Certifications</h2>
+      <p>Join our interactive seminars to gain certifications and practical industry knowledge.</p>
+    </section>
 
-.navbar ul li a:hover {
-  color: #87CEEB; /* Metallic blue */
-}
+    <section id="contact" class="section">
+      <h2>Contact Us</h2>
+      <p>Email: support@dynamicsonthego.com</p>
+    </section>
 
-.search-bar {
-  margin: 10px auto;
-  text-align: center;
-}
+    <section id="login" class="section">
+      <h2>Login</h2>
+      <form class="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+  </main>
 
-.search-bar input {
-  padding: 5px;
-  width: 200px;
-}
-
-.search-bar button {
-  padding: 6px 10px;
-  background-color: #d40000; /* Red */
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
-.search-bar button:hover {
-  background-color: #87CEEB; /* Metallic blue */
-}
-
-.section {
-  padding: 40px;
-  background-color: #ffffff; /* Light background for contrast */
-  color: #333;
-  margin: 20px auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
-}
-
-.services-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-.service-card {
-  background-color: #1c2b36; /* Army green */
-  color: white;
-  width: 250px;
-  border-radius: 10px;
-  text-align: center;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.service-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.service-card h3 {
-  margin: 10px 0;
-  font-size: 1.5em;
-  color: #d40000; /* Red */
-}
-
-.service-card p {
-  font-size: 1em;
-  margin-bottom: 10px;
-}
-
-.service-card .service-link {
-  text-decoration: none;
-  color: #87CEEB; /* Metallic blue */
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-.service-card .service-link:hover {
-  color: #ffffff; /* White */
-}
-
-footer {
-  background-color: #1c2b36; /* Army green */
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
+  <footer>
+    <p>© 2024 Dynamics On the Go. All rights reserved.</p>
+  </footer>
+  <script>
+    function searchFunction() {
+      const query = document.getElementById("search").value.toLowerCase();
+      alert(`Searching for: ${query}`);
+    }
+  </script>
+</body>
+</html>

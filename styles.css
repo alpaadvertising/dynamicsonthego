@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #004d4d; /* Deep Greenish Blue */
-    color: #ffffff; /* White text for contrast */
+    color: #ffffff;
   }
   
   header {
@@ -75,15 +75,49 @@ body {
     max-width: 800px;
   }
   
-  h2 {
-    color: #1c2b36; /* Army green */
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
   }
   
-  blockquote {
-    font-style: italic;
-    color: #555;
-    border-left: 4px solid #d40000;
-    padding-left: 10px;
+  .service-card {
+    background-color: #1c2b36; /* Army green */
+    color: white;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .service-card h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #d40000; /* Red */
+  }
+  
+  .service-card p {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .service-card .service-link {
+    text-decoration: none;
+    color: #87CEEB; /* Metallic blue */
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .service-card .service-link:hover {
+    color: #ffffff; /* White */
   }
   
   footer {
@@ -91,30 +125,5 @@ body {
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
-  }
-  
-  .login-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 300px;
-    margin: auto;
-  }
-  
-  .login-form input, .login-form button {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .login-form button {
-    background-color: #1c2b36; /* Army green */
-    color: white;
-    cursor: pointer;
-  }
-  
-  .login-form button:hover {
-    background-color: #87CEEB; /* Metallic blue */
   }
   
