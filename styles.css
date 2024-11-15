@@ -1,118 +1,120 @@
 /* styles.css */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-header {
-  background-color: #1c2b36; /* Army green */
-  color: white;
-  padding: 20px;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.main-title {
-  font-size: 3em;
-  font-weight: bold;
-  color: #d40000; /* Red */
-  text-shadow: 2px 2px 4px #000000;
-}
-
-.navbar ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.2em;
-  transition: color 0.3s;
-}
-
-.navbar ul li a:hover {
-  color: #87CEEB; /* Metallic blue */
-}
-
-.search-bar {
-  margin: 10px auto;
-  text-align: center;
-}
-
-.search-bar input {
-  padding: 5px;
-  width: 200px;
-}
-
-.search-bar button {
-  padding: 6px 10px;
-  background-color: #d40000; /* Red */
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
-.search-bar button:hover {
-  background-color: #87CEEB; /* Metallic blue */
-}
-
-.section {
-  padding: 40px;
-  background-color: white;
-  margin: 20px auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
-}
-
-h2 {
-  color: #1c2b36; /* Army green */
-}
-
-blockquote {
-  font-style: italic;
-  color: #555;
-  border-left: 4px solid #d40000;
-  padding-left: 10px;
-}
-
-footer {
-  background-color: #1c2b36; /* Army green */
-  color: white;
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
-}
-
-.login-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  max-width: 300px;
-  margin: auto;
-}
-
-.login-form input, .login-form button {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.login-form button {
-  background-color: #1c2b36; /* Army green */
-  color: white;
-  cursor: pointer;
-}
-
-.login-form button:hover {
-  background-color: #87CEEB; /* Metallic blue */
-}
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #004d4d; /* Deep Greenish Blue */
+    color: #fff;
+  }
+  
+  header {
+    background-color: #1c2b36; /* Army green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .main-title {
+    font-size: 3em;
+    font-weight: bold;
+    color: #d40000; /* Red */
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    color: #87CEEB; /* Metallic blue */
+  }
+  
+  .search-bar {
+    margin: 10px auto;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .search-bar button {
+    padding: 6px 10px;
+    background-color: #d40000; /* Red */
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #87CEEB; /* Metallic blue */
+  }
+  
+  .section {
+    padding: 40px;
+    background-color: #f4f4f4; /* Light background for contrast */
+    color: #333;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+  }
+  
+  h2 {
+    color: #1c2b36; /* Army green */
+  }
+  
+  blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #d40000;
+    padding-left: 10px;
+  }
+  
+  footer {
+    background-color: #1c2b36; /* Army green */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .login-form input, .login-form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    background-color: #1c2b36; /* Army green */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #87CEEB; /* Metallic blue */
+  }
+  
