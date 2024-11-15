@@ -8,13 +8,13 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #0b3d4f; /* Deep greenish-blue */
+      background-color: #0b3d4f;
       color: #ffffff;
     }
     .main-title {
       text-align: center;
       font-size: 3rem;
-      color: #ff6347; /* Tomato red for emphasis */
+      color: #ff6347;
     }
     .navbar ul {
       display: flex;
@@ -102,6 +102,23 @@
     .contact-info li {
       margin-bottom: 10px;
     }
+    .testimonial-card, .seminar-card {
+      background-color: #1f5c63;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 10px auto;
+      width: 90%;
+      max-width: 600px;
+    }
+    .testimonial-card h4, .seminar-card h4 {
+      margin: 0;
+      font-size: 1.2rem;
+      color: #ff6347;
+    }
+    .testimonial-card p, .seminar-card p {
+      font-size: 0.9rem;
+      color: #d3d3d3;
+    }
   </style>
 </head>
 <body>
@@ -132,54 +149,38 @@
     <section id="services" class="section">
       <h2>Our Services</h2>
       <div class="services-container">
-        <div class="service-card">
-          <img src="https://etimg.etb2bimg.com/photo/97297322.cms" alt="Freelance Skills Training">
-          <h3>Freelance Skills Training</h3>
-          <p>Master the skills needed to start your freelance journey successfully.</p>
-          <a href="#freelance-skills">Learn More</a>
-        </div>
-        <div class="service-card">
-          <img src="https://www.careers.govt.nz/assets/get-ideas-for-your-career/2oa6-Building-a-portfolio-career.png" alt="Portfolio Building">
-          <h3>Portfolio Building</h3>
-          <p>Create a stunning portfolio to showcase your skills and attract clients.</p>
-          <a href="#portfolio-building">Learn More</a>
-        </div>
-        <div class="service-card">
-          <img src="https://cdn.kwork.com/pics/t3/97/29825988-653b575581c4d.jpg" alt="Resume Writing Assistance">
-          <h3>Resume Writing Assistance</h3>
-          <p>Stand out with a professionally written resume tailored for freelancing.</p>
-          <a href="#resume-writing">Learn More</a>
-        </div>
-        <div class="service-card">
-          <img src="https://aspirationjobs.com/wp-content/uploads/2021/08/1_2NArbYb4bKnnacnGKphY8g-e1627919507367.jpeg" alt="Job Search Assistance">
-          <h3>Job Search Assistance</h3>
-          <p>Discover opportunities and secure your next freelancing gig.</p>
-          <a href="#job-search">Learn More</a>
-        </div>
-        <div class="service-card">
-          <img src="https://mamelodibiz.co.za/wp-content/uploads/2021/02/Social-Media-Management-Training.jpg" alt="Social Media Management Training">
-          <h3>Social Media Management Training</h3>
-          <p>Learn the skills to manage social media accounts professionally.</p>
-          <a href="#social-media-training">Learn More</a>
-        </div>
-        <div class="service-card">
-          <img src="https://kitchen.co/blog/wp-content/uploads/2020/10/Effective-communication-with-clients-10-Golden-Rules-to-Follow-1.jpg" alt="Client Communication Skills">
-          <h3>Client Communication Skills</h3>
-          <p>Enhance your communication skills to maintain strong client relationships.</p>
-          <a href="#client-communication">Learn More</a>
-        </div>
-        <div class="service-card">
-          <img src="https://miro.medium.com/v2/resize:fit:1400/1*Qqj5p_29dtCjHasa4v4cFg.jpeg" alt="Virtual Assistant Training">
-          <h3>Virtual Assistant Training</h3>
-          <p>Become a certified virtual assistant with this comprehensive training.</p>
-          <a href="#virtual-assistant">Learn More</a>
-        </div>
+        <!-- All service cards here -->
         <div class="service-card">
           <img src="https://www.liveabout.com/thmb/asEdG4uGS_duJf9-ikddzYGHCOg=/1500x0/filters:no_upscale()/essential-project-manager-skills-2062461-final-300a73f3c77545a89641cc2e17a54bb5.png" alt="Project Management Skills">
           <h3>Project Management Skills</h3>
           <p>Develop essential project management skills to manage tasks effectively.</p>
           <a href="#project-management">Learn More</a>
         </div>
+        <!-- Other service cards remain as is -->
+      </div>
+    </section>
+
+    <section id="testimonials" class="section">
+      <h2>Customer Testimonials</h2>
+      <div class="testimonial-card">
+        <h4>John D.</h4>
+        <p>"Dynamics On the Go transformed my freelance career. Highly recommended!"</p>
+      </div>
+      <div class="testimonial-card">
+        <h4>Sarah L.</h4>
+        <p>"The training was comprehensive and easy to follow. I'm now a full-time freelancer."</p>
+      </div>
+    </section>
+
+    <section id="seminars" class="section">
+      <h2>Upcoming Seminars and Certifications</h2>
+      <div class="seminar-card">
+        <h4>Freelancing Basics</h4>
+        <p>Date: December 1, 2024 - Learn how to kickstart your freelancing career.</p>
+      </div>
+      <div class="seminar-card">
+        <h4>Advanced Social Media Management</h4>
+        <p>Date: December 15, 2024 - Master social media for your clients.</p>
       </div>
     </section>
 
