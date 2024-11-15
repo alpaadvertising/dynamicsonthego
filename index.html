@@ -5,6 +5,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dynamics On the Go</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #0b3d4f; /* Deep greenish-blue */
+      color: #ffffff;
+    }
+    .main-title {
+      text-align: center;
+      font-size: 3rem;
+      color: #ff6347; /* Tomato red for emphasis */
+    }
+    .navbar ul {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      padding: 0;
+      background-color: #1f5c63;
+    }
+    .navbar ul li {
+      margin: 0 15px;
+    }
+    .navbar ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    .search-bar {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .search-bar input {
+      padding: 10px;
+      width: 300px;
+      font-size: 1rem;
+    }
+    .search-bar button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #1f5c63;
+      color: #ffffff;
+      border: none;
+      cursor: pointer;
+    }
+    .section {
+      padding: 20px;
+      text-align: center;
+    }
+    .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .service-card {
+      background-color: #1f5c63;
+      border-radius: 10px;
+      padding: 15px;
+      width: 250px;
+      text-align: center;
+    }
+    .service-card img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .service-card a {
+      display: block;
+      color: #ff6347;
+      font-weight: bold;
+      margin-top: 10px;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1f5c63;
+      color: #ffffff;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -34,7 +113,38 @@
     <section id="services" class="section">
       <h2>Our Services</h2>
       <div class="services-container">
-        <!-- Services content omitted for brevity -->
+        <div class="service-card">
+          <img src="https://etimg.etb2bimg.com/photo/97297322.cms" alt="Freelance Skills Training">
+          <a href="#freelance-skills">Freelance Skills Training</a>
+        </div>
+        <div class="service-card">
+          <img src="https://www.careers.govt.nz/assets/get-ideas-for-your-career/2oa6-Building-a-portfolio-career.png" alt="Portfolio Building">
+          <a href="#portfolio-building">Portfolio Building</a>
+        </div>
+        <div class="service-card">
+          <img src="https://cdn.kwork.com/pics/t3/97/29825988-653b575581c4d.jpg" alt="Resume Writing Assistance">
+          <a href="#resume-writing">Resume Writing Assistance</a>
+        </div>
+        <div class="service-card">
+          <img src="https://aspirationjobs.com/wp-content/uploads/2021/08/1_2NArbYb4bKnnacnGKphY8g-e1627919507367.jpeg" alt="Job Search Assistance">
+          <a href="#job-search">Job Search Assistance</a>
+        </div>
+        <div class="service-card">
+          <img src="https://mamelodibiz.co.za/wp-content/uploads/2021/02/Social-Media-Management-Training.jpg" alt="Social Media Management Training">
+          <a href="#social-media-training">Social Media Management Training</a>
+        </div>
+        <div class="service-card">
+          <img src="https://kitchen.co/blog/wp-content/uploads/2020/10/Effective-communication-with-clients-10-Golden-Rules-to-Follow-1.jpg" alt="Client Communication Skills">
+          <a href="#client-communication">Client Communication Skills</a>
+        </div>
+        <div class="service-card">
+          <img src="https://miro.medium.com/v2/resize:fit:1400/1*Qqj5p_29dtCjHasa4v4cFg.jpeg" alt="Virtual Assistant Training">
+          <a href="#virtual-assistant">Virtual Assistant Training</a>
+        </div>
+        <div class="service-card">
+          <img src="https://www.liveabout.com/thmb/asEdG4uGS_duJf9-ikddzYGHCOg=/1500x0/filters:no_upscale()/essential-project-manager-skills-2062461-final-300a73f3c77545a89641cc2e17a54bb5.png" alt="Project Management Skills">
+          <a href="#project-management">Project Management Skills</a>
+        </div>
       </div>
     </section>
 
@@ -53,7 +163,6 @@
 
     <section id="contact" class="section">
       <h2>Contact Us</h2>
-      <p>Feel free to reach out to us through any of the following means:</p>
       <ul>
         <li>
           <strong>Email:</strong>
