@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dynamics On the Go</title>
-  <link rel="stylesheet" href="styles.css">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -70,11 +69,23 @@
       max-width: 100%;
       border-radius: 10px;
     }
-    .service-card a {
-      display: block;
+    .service-card h3 {
+      margin: 10px 0;
+      font-size: 1.2rem;
       color: #ff6347;
-      font-weight: bold;
+    }
+    .service-card p {
+      font-size: 0.9rem;
+      color: #d3d3d3;
+    }
+    .service-card a {
+      display: inline-block;
       margin-top: 10px;
+      padding: 8px 15px;
+      font-size: 0.9rem;
+      color: #ffffff;
+      background-color: #ff6347;
+      border-radius: 5px;
       text-decoration: none;
     }
     footer {
@@ -82,6 +93,14 @@
       padding: 20px;
       background-color: #1f5c63;
       color: #ffffff;
+    }
+    .contact-info ul {
+      padding: 0;
+      list-style-type: none;
+      margin: 0;
+    }
+    .contact-info li {
+      margin-bottom: 10px;
     }
   </style>
 </head>
@@ -115,88 +134,79 @@
       <div class="services-container">
         <div class="service-card">
           <img src="https://etimg.etb2bimg.com/photo/97297322.cms" alt="Freelance Skills Training">
-          <a href="#freelance-skills">Freelance Skills Training</a>
+          <h3>Freelance Skills Training</h3>
+          <p>Master the skills needed to start your freelance journey successfully.</p>
+          <a href="#freelance-skills">Learn More</a>
         </div>
         <div class="service-card">
           <img src="https://www.careers.govt.nz/assets/get-ideas-for-your-career/2oa6-Building-a-portfolio-career.png" alt="Portfolio Building">
-          <a href="#portfolio-building">Portfolio Building</a>
+          <h3>Portfolio Building</h3>
+          <p>Create a stunning portfolio to showcase your skills and attract clients.</p>
+          <a href="#portfolio-building">Learn More</a>
         </div>
         <div class="service-card">
           <img src="https://cdn.kwork.com/pics/t3/97/29825988-653b575581c4d.jpg" alt="Resume Writing Assistance">
-          <a href="#resume-writing">Resume Writing Assistance</a>
+          <h3>Resume Writing Assistance</h3>
+          <p>Stand out with a professionally written resume tailored for freelancing.</p>
+          <a href="#resume-writing">Learn More</a>
         </div>
         <div class="service-card">
           <img src="https://aspirationjobs.com/wp-content/uploads/2021/08/1_2NArbYb4bKnnacnGKphY8g-e1627919507367.jpeg" alt="Job Search Assistance">
-          <a href="#job-search">Job Search Assistance</a>
+          <h3>Job Search Assistance</h3>
+          <p>Discover opportunities and secure your next freelancing gig.</p>
+          <a href="#job-search">Learn More</a>
         </div>
         <div class="service-card">
           <img src="https://mamelodibiz.co.za/wp-content/uploads/2021/02/Social-Media-Management-Training.jpg" alt="Social Media Management Training">
-          <a href="#social-media-training">Social Media Management Training</a>
+          <h3>Social Media Management Training</h3>
+          <p>Learn the skills to manage social media accounts professionally.</p>
+          <a href="#social-media-training">Learn More</a>
         </div>
         <div class="service-card">
           <img src="https://kitchen.co/blog/wp-content/uploads/2020/10/Effective-communication-with-clients-10-Golden-Rules-to-Follow-1.jpg" alt="Client Communication Skills">
-          <a href="#client-communication">Client Communication Skills</a>
+          <h3>Client Communication Skills</h3>
+          <p>Enhance your communication skills to maintain strong client relationships.</p>
+          <a href="#client-communication">Learn More</a>
         </div>
         <div class="service-card">
           <img src="https://miro.medium.com/v2/resize:fit:1400/1*Qqj5p_29dtCjHasa4v4cFg.jpeg" alt="Virtual Assistant Training">
-          <a href="#virtual-assistant">Virtual Assistant Training</a>
+          <h3>Virtual Assistant Training</h3>
+          <p>Become a certified virtual assistant with this comprehensive training.</p>
+          <a href="#virtual-assistant">Learn More</a>
         </div>
         <div class="service-card">
           <img src="https://www.liveabout.com/thmb/asEdG4uGS_duJf9-ikddzYGHCOg=/1500x0/filters:no_upscale()/essential-project-manager-skills-2062461-final-300a73f3c77545a89641cc2e17a54bb5.png" alt="Project Management Skills">
-          <a href="#project-management">Project Management Skills</a>
+          <h3>Project Management Skills</h3>
+          <p>Develop essential project management skills to manage tasks effectively.</p>
+          <a href="#project-management">Learn More</a>
         </div>
       </div>
     </section>
 
-    <section id="testimonials" class="section">
-      <h2>Testimonials</h2>
-      <blockquote>"Thanks to Dynamics On the Go, I landed my first online client in just two months!"</blockquote>
-      <cite>- Anna M., Virtual Assistant</cite>
-      <blockquote>"The seminars and certifications boosted my credibility and helped me charge better rates."</blockquote>
-      <cite>- John D., Freelance Graphic Designer</cite>
-    </section>
-
-    <section id="seminars" class="section">
-      <h2>Seminars & Certifications</h2>
-      <p>Join our interactive seminars to gain certifications and practical industry knowledge.</p>
-    </section>
-
     <section id="contact" class="section">
       <h2>Contact Us</h2>
-      <ul>
-        <li>
-          <strong>Email:</strong>
-          <ul>
-            <li><a href="mailto:allellujah@dynamicsonthego.com">allellujah@dynamicsonthego.com</a></li>
-            <li><a href="mailto:patrick@dynamicsonthego.com">patrick@dynamicsonthego.com</a></li>
-            <li><a href="mailto:jonathan@dynamicsonthego.com">jonathan@dynamicsonthego.com</a></li>
-            <li><a href="mailto:macjill@dynamicsonthego.com">macjill@dynamicsonthego.com</a></li>
-          </ul>
-        </li>
-        <li><strong>Phone:</strong> +1 (555) 123-4567</li>
-        <li><strong>Address:</strong> 123 Freelancer Lane, Remote City, WorkWorld 10101</li>
-      </ul>
-    </section>
-
-    <section id="login" class="section">
-      <h2>Login</h2>
-      <form class="login-form">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        <button type="submit">Login</button>
-      </form>
+      <div class="contact-info">
+        <p><strong>Email:</strong></p>
+        <ul>
+          <li><a href="mailto:allellujah@dynamicsonthego.com">allellujah@dynamicsonthego.com</a></li>
+          <li><a href="mailto:patrick@dynamicsonthego.com">patrick@dynamicsonthego.com</a></li>
+          <li><a href="mailto:jonathan@dynamicsonthego.com">jonathan@dynamicsonthego.com</a></li>
+          <li><a href="mailto:macjill@dynamicsonthego.com">macjill@dynamicsonthego.com</a></li>
+        </ul>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+        <p><strong>Address:</strong> 123 Freelancer Lane, Remote City, WorkWorld 10101</p>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2024 Dynamics On the Go. All rights reserved.</p>
+    <p>&copy; 2024 Dynamics On the Go. All rights reserved.</p>
   </footer>
+
   <script>
     function searchFunction() {
-      const query = document.getElementById("search").value.toLowerCase();
-      alert(`Searching for: ${query}`);
+      const search = document.getElementById('search').value.toLowerCase();
+      alert(`Searching for: ${search}`);
     }
   </script>
 </body>
