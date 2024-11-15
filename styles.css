@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #004d4d; /* Deep Greenish Blue */
-    color: #fff;
+    color: #ffffff; /* White text for contrast */
   }
   
   header {
@@ -67,7 +67,7 @@ body {
   
   .section {
     padding: 40px;
-    background-color: #f4f4f4; /* Light background for contrast */
+    background-color: #ffffff; /* Light background for contrast */
     color: #333;
     margin: 20px auto;
     border-radius: 10px;
